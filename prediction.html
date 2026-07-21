@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How Climate Intelligence uses weather data and machine learning to predict heatwaves in advance.">
+<title>Heatwave Prediction | Climate Intelligence</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="eyebrow">KJS-CES-01 · Climate Intelligence</span>
+    <h1>Heatwave Prediction</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="prediction.html">Prediction</a>
+      <a href="safety.html">Safety</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<div class="thermal-bar"></div>
+<div class="thermal-legend"><span>Cool</span><span>Moderate</span><span>Severe</span><span>Extreme</span></div>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="lede">Prediction is what turns raw weather data into a warning people can act on days in
+    advance, rather than a headline once the heat has already arrived.</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <h2 class="section-heading">Approach</h2>
+  <div class="card-grid">
+    <div class="card accent-rose">
+      <h2>How prediction works here</h2>
+      <p>
+        Climate Intelligence combines live weather observations, satellite data, and historical climate
+        records, then runs them through a machine learning model trained to recognise the conditions that
+        precede a heatwave. Forecasting the risk before it becomes an emergency gives governments and
+        communities time to prepare rather than just react.
+      </p>
+      <img class="feature-img" src="images/prediction.jpg" alt="Heatwave prediction data">
+    </div>
+  </div>
+
+  <h2 class="section-heading">Data Used</h2>
+  <div class="card-grid">
+    <div class="card accent-peach">
+      <h3>Surface &amp; air temperature</h3>
+      <p>The core signal — sustained readings above the seasonal average are the first indicator of a developing heatwave.</p>
+    </div>
+    <div class="card accent-lavender">
+      <h3>Humidity</h3>
+      <p>Combined with temperature, humidity determines how the heat actually feels and how dangerous it is to the body.</p>
+    </div>
+    <div class="card accent-sage">
+      <h3>Wind speed</h3>
+      <p>Low wind speeds let hot air settle and linger, while stronger winds can help disperse it.</p>
+    </div>
+    <div class="card accent-rose">
+      <h3>Solar radiation</h3>
+      <p>Direct measurement of incoming sunlight helps refine how quickly surfaces and air will heat up.</p>
+    </div>
+    <div class="card accent-peach">
+      <h3>Historical records</h3>
+      <p>Past heatwave patterns for a region help the model recognise what "abnormal" looks like locally.</p>
+    </div>
+    <div class="card accent-lavender">
+      <h3>Satellite observations</h3>
+      <p>Wide-area imagery fills in the gaps between ground stations, especially over less-monitored regions.</p>
+    </div>
+  </div>
+
+  <h2 class="section-heading">Prediction Process</h2>
+  <div class="card-grid">
+    <div class="card accent-rose">
+      <span class="card-label">01</span>
+      <h3>Collect</h3>
+      <p>Gather weather data from ground stations and satellites in real time.</p>
+    </div>
+    <div class="card accent-peach">
+      <span class="card-label">02</span>
+      <h3>Clean &amp; process</h3>
+      <p>Remove noise and errors, then structure the raw data for the model.</p>
+    </div>
+    <div class="card accent-lavender">
+      <span class="card-label">03</span>
+      <h3>Train</h3>
+      <p>Train a machine learning model on historical heatwave patterns.</p>
+    </div>
+    <div class="card accent-sage">
+      <span class="card-label">04</span>
+      <h3>Predict</h3>
+      <p>Estimate heatwave risk for the coming days based on current conditions.</p>
+    </div>
+    <div class="card accent-rose">
+      <span class="card-label">05</span>
+      <h3>Alert</h3>
+      <p>Generate an early warning for the areas and populations most at risk.</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <strong>Why this order matters:</strong> a prediction is only as good as the data behind it — which is
+    why cleaning and processing comes before training, and training comes before any prediction is trusted
+    enough to send out as a warning.
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span>Climate Intelligence Project · KJS-CES-01</span>
+    <span>Heatwave Monitoring, Prediction &amp; Early Warning</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

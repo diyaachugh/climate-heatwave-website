@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Climate Intelligence — a monitoring, prediction and early-warning concept for heatwaves.">
+<title>Climate Intelligence | Heatwave Monitoring</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="eyebrow">KJS-CES-01 · Climate Intelligence</span>
+    <h1>Heatwave Monitoring, Prediction &amp; Early Warning</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="prediction.html">Prediction</a>
+      <a href="safety.html">Safety</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<div class="thermal-bar"></div>
+<div class="thermal-legend"><span>Cool</span><span>Moderate</span><span>Severe</span><span>Extreme</span></div>
+
+<section class="hero">
+  <div class="hero-photo"></div>
+  <div class="hero-inner">
+    <h2>Extreme heat is predictable. Warnings should be too.</h2>
+    <p>Climate Intelligence combines weather data, satellite observations, and machine learning to monitor
+    heat conditions, forecast heatwaves before they arrive, and issue early warnings that keep communities
+    safer — turning "the heat is coming" into "we're already prepared."</p>
+
+    <div class="readout">
+      <div class="readout-cell">
+        <span class="readout-label">Station</span>
+        <span class="readout-value">MUM-04</span>
+      </div>
+      <div class="readout-cell">
+        <span class="readout-label">Surface Temp</span>
+        <span class="readout-value">41.2°C</span>
+      </div>
+      <div class="readout-cell">
+        <span class="readout-label">Heat Index</span>
+        <span class="readout-value status-severe">Severe</span>
+      </div>
+    </div>
+    <p class="readout-note">Sample readout for illustration — not live sensor data.</p>
+
+    <br>
+    <button onclick="showAlert()">Trigger Heatwave Alert</button>
+  </div>
+</section>
+
+<div class="container">
+
+  <h2 class="section-heading">Project Overview</h2>
+  <div class="card-grid">
+    <div class="card accent-rose">
+      <span class="card-label">What it does</span>
+      <h2>Bringing three things together</h2>
+      <p>
+        Climate Intelligence brings together weather monitoring, artificial intelligence, and forecasting
+        techniques into a single pipeline: watch current conditions, predict heatwaves ahead of time, and
+        turn that prediction into a warning people can actually act on. The goal is to shrink the gap
+        between the heat arriving and the community knowing to prepare for it.
+      </p>
+      <div class="callout">
+        <strong>Why this matters:</strong> heatwaves are becoming more frequent and more intense as the
+        climate changes, but most heat-related harm is preventable if people get a clear warning early
+        enough to act on it.
+      </div>
+    </div>
+
+    <div class="card accent-lavender">
+      <span class="card-label">Objectives</span>
+      <h2>What it aims to achieve</h2>
+      <ul>
+        <li>Monitor temperature and related conditions continuously</li>
+        <li>Predict heatwaves using AI-driven forecasting</li>
+        <li>Generate early warnings before extreme heat arrives</li>
+        <li>Improve public safety and disaster preparedness</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="section-heading">How It Works</h2>
+  <div class="card-grid">
+    <div class="card accent-peach">
+      <span class="card-label">Step 1</span>
+      <h3>Monitor</h3>
+      <p>Continuously track temperature, humidity, wind and solar radiation from weather stations and satellites.</p>
+    </div>
+    <div class="card accent-rose">
+      <span class="card-label">Step 2</span>
+      <h3>Predict</h3>
+      <p>Feed that data into a machine learning model trained to recognise the patterns that precede a heatwave.</p>
+    </div>
+    <div class="card accent-sage">
+      <span class="card-label">Step 3</span>
+      <h3>Warn</h3>
+      <p>Turn the prediction into a clear, timely alert so people can prepare before conditions turn severe.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span>Climate Intelligence Project · KJS-CES-01</span>
+    <span>Heatwave Monitoring, Prediction &amp; Early Warning</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
