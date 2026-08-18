@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diyaachugh.github.io/climate-heatwave-website/sitemap.xml
